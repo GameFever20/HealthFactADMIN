@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity
         String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
         healthFact.setmHealthFactDate(mydate);
 
-        healthFact.setPushNotification(true);
+        healthFact.setPushNotification(false);
 
 
         return true;
